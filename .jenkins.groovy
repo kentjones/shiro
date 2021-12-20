@@ -57,7 +57,7 @@ pipeline {
 
                 tools {
                     // https://cwiki.apache.org/confluence/display/INFRA/Maven+Installation+Matrix
-                    maven 'maven_3_latest'
+                    maven 'Maven-3.8.3'
                     jdk "${MATRIX_JDK}"
                 }
 
