@@ -132,7 +132,7 @@ pipeline {
 BUILD-FAILURE: Job '${env.JOB_NAME} [${env.BRANCH_NAME}] [${env.BUILD_NUMBER}]':
 Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BRANCH_NAME}] [${env.BUILD_NUMBER}]</a>"
 """,
-                                        to: "dev@shiro.apache.org",
+                                        to: "nite.coder.kbj@pm.me",
                                         recipientProviders: [[$class: 'DevelopersRecipientProvider']]
                                 )
                             }
@@ -149,7 +149,7 @@ Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BRANC
 BUILD-UNSTABLE: Job '${env.JOB_NAME} [${env.BRANCH_NAME}] [${env.BUILD_NUMBER}]':
 Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BRANCH_NAME}] [${env.BUILD_NUMBER}]</a>"
 """,
-                                        to: "dev@shiro.apache.org",
+                                        to: "nite.coder.kbj@pm.me",
                                         recipientProviders: [[$class: 'DevelopersRecipientProvider']]
                                 )
                             }
@@ -170,7 +170,7 @@ Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BRANC
 BUILD-STABLE: Job '${env.JOB_NAME} [${env.BRANCH_NAME}] [${env.BUILD_NUMBER}]':
 Is back to normal.
 """,
-                                        to: "dev@shiro.apache.org",
+                                        to: "nite.coder.kbj@pm.me",
                                         recipientProviders: [[$class: 'DevelopersRecipientProvider']]
                                 )
                             }
